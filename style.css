@@ -1,0 +1,12 @@
+.place_pic,  .response_text, .hidden_video {visibility: hidden;}
+
+@media screen and (min-width: 300px) and (orientation: portrait){
+    .place_pic{visibility: visible;}
+}
+@media screen and (device-aspect-ratio: 4/3) {
+    .response_text{visibility: visible;} 
+}
+@media screen and (min-width: 300px) and (max-width: 700px){
+    .hidden_video {visibility: visible;}
+
+}
